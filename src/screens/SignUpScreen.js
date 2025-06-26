@@ -15,7 +15,7 @@ const SignUpScreen = ({ navigation }) => {
       return;
     }
     console.log('Signing up:', name, email);
-    navigation.navigate('Home');
+    navigation.navigate('App');
   };
 
   return (

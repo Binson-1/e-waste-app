@@ -16,7 +16,7 @@ const LoginScreen = ({ navigation }) => {
       return;
     }
     console.log('Logging in with:', email);
-    navigation.navigate('Home'); 
+    navigation.navigate('App'); 
   };
 
   return (
